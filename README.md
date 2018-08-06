@@ -15,6 +15,7 @@ ng serve --open --port 4200
 3、安装Angular Material，Angular CDK和Angular Animations
 
 npm install --save @angular/material @angular/cdk @angular/animations
+
 4、配置动画
 
 安装动画包后，导入BrowserAnimationsModule到您的应用程序/angular-material/src/app/app.module.ts文件中以启用动画支持。

@@ -5,11 +5,13 @@ angular-material
 1、安装Angular CLI
 
 npm install -g @angular/cli
- 2、创建并运行新项目
+ 
+2、创建并运行新项目
 
 ng angular-material
 cd angular-material
 ng serve --open --port 4200
+
 3、安装Angular Material，Angular CDK和Angular Animations
 
 npm install --save @angular/material @angular/cdk @angular/animations
@@ -25,6 +27,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   ...
 })
 export class AppModule{ }
+
 5、导入组件模块
 
 为要使用的每个组件导入NgModule：
@@ -37,6 +40,7 @@ import {MatButtonModule, MatCheckboxModule} from '@angular/material';
   ...
 })
 export class AppModule{ }
+
 6、包含主题
 
 包含主题是将所有核心和主题样式应用于您的应用程序所必需的。
@@ -44,6 +48,7 @@ export class AppModule{ }
 要开始使用预先构建的主题，请在应用程序中全局包含Angular Material的预构建主题之一。如果您使用的是Angular CLI，可以将其添加到styles.css：
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
 7、Gesture 支持
 
 一些组件（mat-slide-toggle，mat-slider，matTooltip）依靠HammerJS的手势。为了获得这些组件的完整功能集，必须将HammerJS加载到应用程序中。
@@ -53,6 +58,7 @@ export class AppModule{ }
 要通过npm安装，请使用以下命令：
 
 npm install --save hammerjs
+
 8、添加材料图标
 
 如果要将mat-icon组件与官方Material Design Icons一起使用，请在您的index.html。中加载图标字体。
